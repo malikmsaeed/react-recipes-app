@@ -10,12 +10,12 @@ export default function Navbar() {
       <div className="collapse navbar-collapse show ml-sm-5">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link to="./" className="nav-link">
+            <Link to="/" className="nav-link">
               Home
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="./recipes" className="nav-link">
+            <Link to="/recipes" className="nav-link">
               Recipes
             </Link>
           </li>
